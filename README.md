@@ -1,1 +1,5 @@
 # covenant_data
+
+This repository contain collected data on syndicated lending covenants used in "Composition Risk: How Debt Structure Impacts Debt Contracting" by Steven Fortney (2021) and "Affirmative Covenants and Information-first Monitoring: Evidence from Syndicated Lending" by Steven Fortney (2021). Data is compiled by scraping syndicated lending agreements from SEC EDGAR and applying a novel textual analysis technique which I call Title-Recombination K-Means (TRKM) to each agreement. Full details of the TRKM technique are described in "Composition Risk: How Debt Structure Impacts Debt Contracting" (availible at stevenfortney.com). 
+
+The repository contains two datasets. The first is a dataset of 16 categories of negative covenants commonly found in syndicated lending agreements. These include capital restrictions covenants which are not covered by existing publicly availible commercial databased. Each of these categories is chosen to match a corresponding class of covenant which are also found in bond indentures (as identified in Mergent's FISD database).   
